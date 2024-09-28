@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 1</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    
+    <header>
+        <div class="logo"><h2>IMAGE GALLERY</h2></div>
+        <nav>
+        <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">Contact</a></li>
+       <li> <a href="#">Services</a></li>
+       <li><a href="#">About</a></li>
+        </ul>
+        </nav>
+    </header>
+    <h1><u>ART SHOWS</u></h1>
+   <br>
+   <blockquote style="color: rgba(145, 202, 209, 0.9); font-size :25px">
+    The world is a canvas of endless possibilities, where every sunrise brings a fresh start and every adventure ignites our spirit. Embrace the beauty around you, and let your dreams soar as high as the mountains and as deep as the oceans!
+    <blockquote>
+
+
+    <div class="container">
+    <div class="swiper">
+       
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img class="i1" src="images/image11.jpg" alt="image"></div>
+          <div class="swiper-slide"><img src="images/image12.jpg" class="i2" alt="image"></div>
+          <div class="swiper-slide"><img src="images/image13.jpg" class="i3" alt="image"></div>
+          <div class="swiper-slide"><img src="images/image14.jpg" class="i4" alt="image"></div>
+          <div class="swiper-slide"><img src="images/image15.jpg" class="i5" alt="image"></div>
+          <div class="swiper-slide"><img src="images/image16.jpg" class="i6" alt="image"></div>
+          <div class="swiper-slide"><img src="images/image17.jpg" class="i7" alt="image"></div>
+          <div class="swiper-slide"><img src="images/image18.jpg" class="i8" alt="image"></div>
+          <div class="swiper-slide"><img src="images/image19.jpg" class="i9" alt="image"></div>
+          <div class="swiper-slide"><img src="images/image20.jpg" class="i10" alt="image"></div>
+          <div class="swiper-slide"><img src="images/image21.jpg" class="i11" alt="image"></div>
+          <div class="swiper-slide"><img src="images/image22.jpg" class="i12" alt="image"></div>
+          <div class="swiper-slide"><img src="images/image23.jpg" class="i13" alt="image"></div>
+          <div class="swiper-slide"><img src="images/image24.jpg" class="i14" alt="image"></div>
+          <div class="swiper-slide"><img src="images/image25.jpg" class="i15" alt="image"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+       const swiper = new Swiper('.swiper', {
+      autoplay:{
+        delay:3000,
+        disableOnInteraction:false,
+      },
+        loop: true,
+      
+      
+        pagination: {
+          el: '.swiper-pagination',
+          clickable:true,
+        },
+      
+
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      
+       
+      });
+    </script>
+   <br>
+   <br>
+
+   <h2 class="hl">ABOUT</h3>
+   <pre style="font-size: 25px;">                Welcome to my journey through the wonders of the world! From the majestic peaks of the Himalayas
+                   to the serene beauty of the Great Barrier Reef, I seek to explore and celebrate the awe-inspiring
+                   sights that our planet has to offer. Each destination is a story waiting to be told, a unique 
+                   blend of culture, history, and natural beauty that leaves a lasting impression. Join me as I 
+                   uncover the hidden gems and iconic landmarks that remind us of the incredible diversity of our world.
+
+   </pre>
+   <blockquote style="font-size: 25px;"><center>
+    "The only limit to our realization of tomorrow will be our doubts of today."
+    <cite>— Franklin D. Roosevelt</cite>
+  </center>
+    <blockquote>
+
+</body>
+</html>
